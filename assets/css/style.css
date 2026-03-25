@@ -91,6 +91,7 @@ form {
     border: 1px solid #d0e4ff;
     margin: 20px auto;
     padding: 10px;
+    transition: 0.3s;
 }
 
 .account-type:hover {
@@ -105,3 +106,15 @@ form {
 .text > p {
     font-size: 10px;
 }
+
+/*  ---- Form checkbox ---- */
+
+.offers-checkbox {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.offers-checkbox > span {
+    font-size: 11px;
+}
+
